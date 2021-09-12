@@ -30,3 +30,11 @@ asesores, secretarios de despacho, proveedores de servicios y personal de aseo. 
 | Secretario de despacho | Despacho |
 | Proveedores de servicios | Servicio realizado, Unidad dondesarrolo el servicio |
 | Personal de aseo | Turno en el que desarrollo el servicio |
+
+## Requisitos generales
+
+- El desarrollo debe indentificar el aforo de cada oficiona, la cantidad de oficinas disponibles en cada sede de la Gobernación por cada hora laboral.
+- El sistema debe determinar si alguna de las personas autorizadas al ingreso tiene COVID, en ese caso el sistema debe registar los sitomas y la fecha en la fue diagnosticado.
+- Si una persona resulta contagiada se le deb asignar un periodo de aislamiento obiglatorio a la persona e impedir su acceso a las instalaciones de la Universidad.
+- También se been analizar los datos registrados para identificar posibles focos epidmiológicos.
+- Un foco se determina por la procedencia de mas de 3 contagios que pertenezcan a una misma unidad (programa, facultad, dependencia administrativa)
