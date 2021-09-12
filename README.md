@@ -38,3 +38,4 @@ asesores, secretarios de despacho, proveedores de servicios y personal de aseo. 
 - Si una persona resulta contagiada se le deb asignar un periodo de aislamiento obiglatorio a la persona e impedir su acceso a las instalaciones de la Universidad.
 - También se been analizar los datos registrados para identificar posibles focos epidmiológicos.
 - Un foco se determina por la procedencia de mas de 3 contagios que pertenezcan a una misma unidad (programa, facultad, dependencia administrativa)
+- coomit
