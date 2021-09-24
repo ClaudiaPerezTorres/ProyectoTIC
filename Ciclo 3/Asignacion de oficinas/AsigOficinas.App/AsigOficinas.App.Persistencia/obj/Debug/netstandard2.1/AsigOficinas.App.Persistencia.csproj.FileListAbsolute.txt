@@ -1,0 +1,24 @@
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Persistencia.deps.json
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Persistencia.dll
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Persistencia.pdb
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.dll
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.pdb
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Dominio.dll
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Dominio.pdb
+C:\Users\USUARIO\Desktop\Repositorios\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Persistencia.deps.json
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Persistencia.dll
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Persistencia.pdb
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Dominio.dll
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\bin\Debug\netstandard2.1\AsigOficinas.App.Dominio.pdb
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.dll
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Persistencia\obj\Debug\netstandard2.1\AsigOficinas.App.Persistencia.pdb
