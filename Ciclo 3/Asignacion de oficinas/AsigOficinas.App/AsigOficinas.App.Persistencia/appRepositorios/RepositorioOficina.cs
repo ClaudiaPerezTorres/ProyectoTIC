@@ -2,7 +2,7 @@ using System;
 using AsigOficinas.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
-// si da error cambiar Oficina a Oficinas
+
 namespace AsigOficinas.App.Persistencia
 {
 
@@ -25,32 +25,32 @@ namespace AsigOficinas.App.Persistencia
 
         Oficina IRepositorioOficina.AddOficina (Oficina oficina)
         {
-            var oficinaAdicionado= _appContext.Oficina.Add(oficina);
+            var oficinaAdicionada= _appContext.Oficina.Add(oficina);
             _appContext.SaveChanges();
-            return oficinaAdicionado.Entity;
+            return oficinaAdicionada.Entity;
         }
 
         Oficina IRepositorioOficina.UpdateOficina (Oficina oficina)
         {
-            var oficinaEncontrado= _appContext.Oficina.FirstOrDefault(p=>p.id == oficina.id);
-            if (oficinaEncontrado!=null)
+            var oficinaEncontrada= _appContext.Oficina.FirstOrDefault(o=>o.id == oficina.id);
+            if (oficinaEncontrada!=null)
             {
-                oficinaEncontrado.numero = oficina.numero;
-                oficinaEncontrado.aforo = oficina.aforo;
-                oficinaEncontrado.horaLaboral = oficina.horaLaboral;
-                oficinaEncontrado.estadoOficina = oficina.estadoOficina;
-                oficinaEncontrado.numeroPersonas = oficina.numeroPersonas;
+                oficinaEncontrada.numero = oficina.numero;
+                oficinaEncontrada.aforo = oficina.aforo;
+                oficinaEncontrada.horaLaboral = oficina.horaLaboral;
+                oficinaEncontrada.estadoOficina = oficina.estadoOficina;
+                oficinaEncontrada.numeroPersonas = oficina.numeroPersonas;
                 _appContext.SaveChanges();
             }
-            return oficinaEncontrado;
+            return oficinaEncontrada;
         }
 
         void IRepositorioOficina.DeleteOficina (int idOficina)
         {
-            var oficinaEncontrado= _appContext.Oficina.FirstOrDefault(p=>p.id == idOficina);
-            if(oficinaEncontrado==null)
+            var oficinaEncontrada= _appContext.Oficina.FirstOrDefault(o=>o.id == idOficina);
+            if(oficinaEncontrada==null)
                 return;
-            _appContext.Oficina.Remove(oficinaEncontrado);
+            _appContext.Oficina.Remove(oficinaEncontrada);
             _appContext.SaveChanges();
         }
 
@@ -61,7 +61,7 @@ namespace AsigOficinas.App.Persistencia
 
         Oficina IRepositorioOficina.GetOficina (int idOficina)
         {
-            return _appContext.Oficina.FirstOrDefault(p=>p.id == idOficina);
+            return _appContext.Oficina.FirstOrDefault(o=>o.id == idOficina);
         }
     }
 }

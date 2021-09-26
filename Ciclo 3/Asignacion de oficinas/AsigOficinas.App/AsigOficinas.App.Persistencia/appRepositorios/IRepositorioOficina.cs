@@ -33,7 +33,7 @@ namespace AsigOficinas.App.Persistencia
         void DeleteGobernadorYAsesor (int idGobernadorYAsesor);*/
         void DeleteOficina (int oficina);
 
-        // 
+        // ver
         /*PersonalDeAseo GetPersonalDeAseo (int idPersonalDeAseo);
         ProveedorDeServicios GetProveedorDeServicios (int idProveedorDeServicios);
         SecretarioDeDespacho GetSecretarioDeDespacho (int idSecretarioDeDespacho);
