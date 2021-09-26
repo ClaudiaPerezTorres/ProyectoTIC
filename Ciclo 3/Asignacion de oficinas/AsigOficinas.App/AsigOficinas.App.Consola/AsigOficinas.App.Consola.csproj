@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AsigOficinas.App.Persistencia\AsigOficinas.App.Persistencia.csproj" />
+    <ProjectReference Include="..\AsigOficinas.App.Dominio\AsigOficinas.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

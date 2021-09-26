@@ -5795,6 +5795,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AsigOficinas.App.Dominio >= 1.0.0",
       "AsigOficinas.App.Persistencia >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0"
     ]
@@ -5823,6 +5824,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\USUARIO\\Desktop\\Repositorios\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Dominio\\AsigOficinas.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Desktop\\Repositorios\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Dominio\\AsigOficinas.App.Dominio.csproj"
+            },
             "C:\\Users\\USUARIO\\Desktop\\Repositorios\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Persistencia\\AsigOficinas.App.Persistencia.csproj": {
               "projectPath": "C:\\Users\\USUARIO\\Desktop\\Repositorios\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Persistencia\\AsigOficinas.App.Persistencia.csproj"
             }
