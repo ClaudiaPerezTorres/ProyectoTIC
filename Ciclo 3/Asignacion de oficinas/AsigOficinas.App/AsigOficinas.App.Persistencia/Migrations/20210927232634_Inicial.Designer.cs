@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AsigOficinas.App.Persistencia.Migrations
 {
     [DbContext(typeof(appContext))]
-    [Migration("20210920210627_Inicial")]
+    [Migration("20210927232634_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -202,6 +202,19 @@ namespace AsigOficinas.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("PersonalDeAseo");
+                });
+
+            modelBuilder.Entity("AsigOficinas.App.Dominio.ProveedorDeServicios", b =>
+                {
+                    b.HasBaseType("AsigOficinas.App.Dominio.Persona");
+
+                    b.Property<string>("servicioRealizado")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("undDesarrolloServicio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("ProveedorDeServicios");
                 });
 
             modelBuilder.Entity("AsigOficinas.App.Dominio.SecretarioDeDespacho", b =>

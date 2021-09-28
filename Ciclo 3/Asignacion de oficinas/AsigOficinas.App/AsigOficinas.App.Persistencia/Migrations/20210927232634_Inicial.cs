@@ -127,6 +127,8 @@ namespace AsigOficinas.App.Persistencia.Migrations
                     Oficinaid = table.Column<int>(type: "int", nullable: true),
                     oficinasVisitadas = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     turnoDesarrolloServicio = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    servicioRealizado = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    undDesarrolloServicio = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     despacho = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>

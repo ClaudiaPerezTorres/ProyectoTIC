@@ -8,7 +8,7 @@ namespace AsigOficinas.App.Persistencia
     public class RepositorioSede : IRepositorioSede
     {
         /// <summary>
-        /// Referencia al contexto de Oficina
+        /// Referencia al contexto de sede
         /// </summary>
 
         private readonly appContext _appContext;

@@ -12,7 +12,7 @@ namespace AsigOficinas.App.Consola
             Console.WriteLine("Hello World! Probando CRUD de las entidades");
             //AddOficina();
             //BuscarOficina(1);
-            AddSede();
+            //AddSede();
         }
 
         private static void AddOficina()

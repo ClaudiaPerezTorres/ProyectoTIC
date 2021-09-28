@@ -202,6 +202,19 @@ namespace AsigOficinas.App.Persistencia.Migrations
                     b.HasDiscriminator().HasValue("PersonalDeAseo");
                 });
 
+            modelBuilder.Entity("AsigOficinas.App.Dominio.ProveedorDeServicios", b =>
+                {
+                    b.HasBaseType("AsigOficinas.App.Dominio.Persona");
+
+                    b.Property<string>("servicioRealizado")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("undDesarrolloServicio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("ProveedorDeServicios");
+                });
+
             modelBuilder.Entity("AsigOficinas.App.Dominio.SecretarioDeDespacho", b =>
                 {
                     b.HasBaseType("AsigOficinas.App.Dominio.Persona");

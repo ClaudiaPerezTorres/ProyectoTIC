@@ -10,6 +10,7 @@ namespace AsigOficinas.App.Persistencia
         public DbSet<GobernadorYAsesor> GobernadorYAsesor {get;set;}
         public DbSet<Oficina> Oficina {get;set;}
         public DbSet<PersonalDeAseo> PersonalDeAseo {get;set;}
+        public DbSet<ProveedorDeServicios> ProveedorDeServicios {get;set;}
         public DbSet<Registro> Registro {get;set;}
         public DbSet<SecretarioDeDespacho> SecretarioDeDespacho {get;set;}
         public DbSet<Sede> Sede {get;set;}
