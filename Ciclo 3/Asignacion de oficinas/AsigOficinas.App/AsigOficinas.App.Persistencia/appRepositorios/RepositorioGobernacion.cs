@@ -8,7 +8,7 @@ namespace AsigOficinas.App.Persistencia
     public class RepositorioGobernacion : IRepositorioGobernacion
     {
         /// <summary>
-        /// Referencia al contexto de Oficina
+        /// Referencia al contexto de Gobernación
         /// </summary>
 
         private readonly appContext _appContext;
@@ -37,19 +37,28 @@ namespace AsigOficinas.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<Gobernacion> GetAllGobernacion()
+        IEnumerable<Gobernacion> IRepositorioGobernacion.GetAllGobernacion()
         {
-            throw new NotImplementedException();
+            return _appContext.Gobernacion;
         }
 
-        public Gobernacion GetGobernacion(int idgobernacion)
+        Gobernacion IRepositorioGobernacion.GetGobernacion(int idGobernacion)
         {
-            throw new NotImplementedException();
+            return _appContext.Gobernacion.FirstOrDefault(g=>g.id == idGobernacion);
         }
 
-        public Gobernacion UpdateGobernacion(Gobernacion gobernacion)
+        Gobernacion IRepositorioGobernacion.UpdateGobernacion(Gobernacion gobernacion)
         {
-            throw new NotImplementedException();
+            var gobernacionEncontrada= _appContext.Gobernacion.FirstOrDefault(g=>g.id == gobernacion.id);
+            if (gobernacionEncontrada!=null)
+            {
+                gobernacionEncontrada.ubicacion = gobernacion.ubicacion;
+                gobernacionEncontrada.direccion = gobernacion.direccion;
+                gobernacionEncontrada.telefono = gobernacion.telefono;
+                gobernacionEncontrada.sedes = gobernacion.sedes;
+                _appContext.SaveChanges();
+            }
+            return gobernacionEncontrada;
         }
     }
 }

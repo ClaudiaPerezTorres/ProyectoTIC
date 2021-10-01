@@ -37,7 +37,7 @@ namespace AsigOficinas.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<SecretarioDeDespacho> GetAllSecretarioDeDespacho()
+        IEnumerable<SecretarioDeDespacho> IRepositorioSecretarioDeDespacho.GetAllSecretarioDeDespacho()
         {
             return _appContext.SecretarioDeDespacho;
         }

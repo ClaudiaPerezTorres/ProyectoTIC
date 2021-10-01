@@ -15,7 +15,7 @@ namespace AsigOficinas.App.Persistencia
         Diagnostico UpdateDiagnostico (Diagnostico diagnostico);
 
         // Borrar
-        void DeleteDiagnostico (int diagnostico);
+        void DeleteDiagnostico (int idDiagnostico);
 
         // ver
         Diagnostico GetDiagnostico (int idDiagnostico);

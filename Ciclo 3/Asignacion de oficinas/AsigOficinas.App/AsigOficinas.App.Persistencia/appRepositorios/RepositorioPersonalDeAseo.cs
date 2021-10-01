@@ -8,7 +8,7 @@ namespace AsigOficinas.App.Persistencia
     public class RepositorioPersonalDeAseo : IRepositorioPersonalDeAseo
     {
         /// <summary>
-        /// Referencia al contexto de Presonal De Aseo
+        /// Referencia al contexto de Personal De Aseo
         /// </summary>
 
         private readonly appContext _appContext;
@@ -37,7 +37,7 @@ namespace AsigOficinas.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<PersonalDeAseo> GetAllPersonalDeAseo()
+        IEnumerable<PersonalDeAseo> IRepositorioPersonalDeAseo.GetAllPersonalDeAseo()
         {
             return _appContext.PersonalDeAseo;
         }

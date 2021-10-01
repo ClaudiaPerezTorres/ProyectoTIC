@@ -37,7 +37,7 @@ namespace AsigOficinas.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<Sede> GetAllSede()
+        IEnumerable<Sede> IRepositorioSede.GetAllSede()
         {
             return _appContext.Sede;
         }
@@ -54,9 +54,16 @@ namespace AsigOficinas.App.Persistencia
             {
                 sedeEncontrada.nombre = sede.nombre;
                 sedeEncontrada.ubicacion = sede.ubicacion;
+                sedeEncontrada.oficinas = sede.oficinas;
                 _appContext.SaveChanges();
             }
             return sedeEncontrada;
+        }
+
+        // Falta crear el metodo
+        public int cantOficinasDisponible(Oficina oficina)
+        {
+            throw new NotImplementedException();
         }
     }
 }

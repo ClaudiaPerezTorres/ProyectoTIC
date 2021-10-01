@@ -37,7 +37,7 @@ namespace AsigOficinas.App.Persistencia.appRepositorios
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<ProveedorDeServicios> GetAllProveedorDeServicios()
+        IEnumerable<ProveedorDeServicios> IRepositorioProveedorDeServicios.GetAllProveedorDeServicios()
         {
             return _appContext.ProveedorDeServicios;
         }

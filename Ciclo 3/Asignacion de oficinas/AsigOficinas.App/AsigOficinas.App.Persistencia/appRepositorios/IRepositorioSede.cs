@@ -19,5 +19,8 @@ namespace AsigOficinas.App.Persistencia
 
         // ver
         Sede GetSede (int idSede);
+
+        // Metodos
+        int cantOficinasDisponible(Oficina oficina);
     }
 }

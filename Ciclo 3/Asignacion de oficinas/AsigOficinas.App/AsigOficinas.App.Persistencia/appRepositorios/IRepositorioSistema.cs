@@ -15,9 +15,23 @@ namespace AsigOficinas.App.Persistencia
         Sistema UpdateSistema (Sistema sistema);
 
         // Borrar
-        void DeleteSistema (int sistema);
+        void DeleteSistema (int idSistema);
 
         // ver
         Sistema GetSistema (int idSistema);
+
+        // Metodos
+        bool verificarEstadoCovid (PersonalDeAseo personalDeAseo);
+        bool verificarEstadoCovid (ProveedorDeServicios proveedorDeServicios);
+        bool verificarEstadoCovid (SecretarioDeDespacho secretarioDeDespacho);
+        bool verificarEstadoCovid (GobernadorYAsesor gobernadorYAsesor);
+        void ingresa (PersonalDeAseo personalDeAseo);
+        void ingresa (ProveedorDeServicios proveedorDeServicios);
+        void ingresa (SecretarioDeDespacho secretarioDeDespacho);
+        void ingresa (GobernadorYAsesor gobernadorYAsesor);
+        void sale (PersonalDeAseo personalDeAseo);
+        void sale (ProveedorDeServicios proveedorDeServicios);
+        void sale (SecretarioDeDespacho secretarioDeDespacho);
+        void sale (GobernadorYAsesor gobernadorYAsesor);
     }
 }
