@@ -41,7 +41,11 @@ asesores, secretarios de despacho, proveedores de servicios y personal de aseo. 
 
 ## Versiones de las herramientas
 
-***DOTNET** = 3.1.413
-***MSSQLLocalDB*** = 15.0.2080.9
-***.NET Framework64*** = v4.0.30319
-***Microsotf SQL Server 2019*** = (RTM-GDR) (KB4583458) - 15.0.2080.9 (X64)   Nov  6 2020 16:50:01   Copyright (C) 2019 Microsoft Corporation  Express Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 19042: ) 
+**DOTNET** = 3.1.413
+
+**MSSQLLocalDB** = 15.0.2080.9
+
+**.NET Framework64** = v4.0.30319
+
+**Microsotf SQL Server 2019** = (RTM-GDR) (KB4583458) - 15.0.2080.9 (X64)   Nov  6 2020 16:50:01   Copyright (C) 2019 Microsoft Corporation  Express Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 19042: )
+  
