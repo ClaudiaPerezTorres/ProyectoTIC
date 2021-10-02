@@ -16,3 +16,12 @@ C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficina
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.dll
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.pdb
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\bin\Debug\netstandard2.1\AsigOficinas.App.Dominio.deps.json
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\bin\Debug\netstandard2.1\AsigOficinas.App.Dominio.dll
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\bin\Debug\netstandard2.1\AsigOficinas.App.Dominio.pdb
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.AssemblyInfo.cs
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.dll
+C:\Users\andre\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Dominio\obj\Debug\netstandard2.1\AsigOficinas.App.Dominio.pdb

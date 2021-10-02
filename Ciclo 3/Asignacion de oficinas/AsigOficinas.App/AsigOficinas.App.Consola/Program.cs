@@ -10,8 +10,8 @@ namespace AsigOficinas.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! Probando CRUD de las entidades");
-            //AddOficina();
-            //BuscarOficina(1);
+            AddOficina();
+            BuscarOficina(1);
             AddSede();
         }
 
