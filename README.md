@@ -38,4 +38,10 @@ asesores, secretarios de despacho, proveedores de servicios y personal de aseo. 
 - Si una persona resulta contagiada se le deb asignar un periodo de aislamiento obiglatorio a la persona e impedir su acceso a las instalaciones de la Universidad.
 - También se been analizar los datos registrados para identificar posibles focos epidmiológicos.
 - Un foco se determina por la procedencia de mas de 3 contagios que pertenezcan a una misma unidad (programa, facultad, dependencia administrativa)
-- coomit
+
+## Versiones de las herramientas
+
+***DOTNET** = 3.1.413
+***MSSQLLocalDB*** = 15.0.2080.9
+***.NET Framework64*** = v4.0.30319
+***Microsotf SQL Server 2019*** = (RTM-GDR) (KB4583458) - 15.0.2080.9 (X64)   Nov  6 2020 16:50:01   Copyright (C) 2019 Microsoft Corporation  Express Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 19042: ) 
