@@ -36,8 +36,8 @@ asesores, secretarios de despacho, proveedores de servicios y personal de aseo. 
 - El desarrollo debe indentificar el aforo de cada oficiona, la cantidad de oficinas disponibles en cada sede de la Gobernación por cada hora laboral.
 - El sistema debe determinar si alguna de las personas autorizadas al ingreso tiene COVID, en ese caso el sistema debe registar los sitomas y la fecha en la fue diagnosticado.
 - Si una persona resulta contagiada se le deb asignar un periodo de aislamiento obiglatorio a la persona e impedir su acceso a las instalaciones de la Universidad.
-- También se been analizar los datos registrados para identificar posibles focos epidmiológicos.
-- Un foco se determina por la procedencia de mas de 3 contagios que pertenezcan a una misma unidad (programa, facultad, dependencia administrativa)
+- También se deben analizar los datos registrados para identificar posibles focos epidmiológicos.
+- Un foco se determina por la procedencia de mas de 3 contagios que pertenezcan a una misma oficina.
 
 ## Versiones de las herramientas
 
@@ -49,3 +49,16 @@ asesores, secretarios de despacho, proveedores de servicios y personal de aseo. 
 
 **Microsotf SQL Server 2019** = (RTM-GDR) (KB4583458) - 15.0.2080.9 (X64)   Nov  6 2020 16:50:01   Copyright (C) 2019 Microsoft Corporation  Express Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 19042: )
   
+**SQL Server Management Studio** = 15.0.18386.0
+  
+**SQL Server Management Objects (SMO)** = 16.100.46437.65
+  
+**Microsoft Analysis Services Client Tools** = 15.0.19618.0
+  
+**Microsoft Data Access Components (MDAC)** = 10.0.19041.1
+  
+**Microsoft MSXML** = 3.0 6.0 
+  
+**Microsoft .NET Framework** = 4.0.30319.42000
+  
+**Operating System** = 10.0.19042
