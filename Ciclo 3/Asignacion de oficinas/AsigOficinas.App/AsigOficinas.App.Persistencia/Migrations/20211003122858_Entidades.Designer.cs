@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AsigOficinas.App.Persistencia.Migrations
 {
     [DbContext(typeof(appContext))]
-    [Migration("20210927232634_Inicial")]
-    partial class Inicial
+    [Migration("20211003122858_Entidades")]
+    partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
