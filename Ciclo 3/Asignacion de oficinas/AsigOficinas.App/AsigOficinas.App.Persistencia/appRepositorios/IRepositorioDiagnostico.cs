@@ -19,5 +19,9 @@ namespace AsigOficinas.App.Persistencia
 
         // ver
         Diagnostico GetDiagnostico (int idDiagnostico);
+
+        // Metodos
+
+        void periodoAsilamiento(int dias);
     }
 }

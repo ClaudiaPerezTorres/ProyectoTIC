@@ -21,6 +21,13 @@ namespace AsigOficinas.App.Persistencia
         {
             _appContext=appContext;
         }
+
+        // Falta implementar metodo
+        public void periodoAsilamiento(int dias)
+        {
+            throw new NotImplementedException();
+        }
+
         Diagnostico IRepositorioDiagnostico.AddDiagnostico(Diagnostico diagnostico)
         {
             var diagnosticoAdicionado= _appContext.Diagnostico.Add(diagnostico);
