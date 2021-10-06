@@ -35,3 +35,4 @@ C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficina
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\AsigOficinas.App.Frontend.pdb
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\AsigOficinas.App.Frontend.genruntimeconfig.cache
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\AsigOficinas.App.Frontend.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebEntidades\oficina.cshtml.g.cs
