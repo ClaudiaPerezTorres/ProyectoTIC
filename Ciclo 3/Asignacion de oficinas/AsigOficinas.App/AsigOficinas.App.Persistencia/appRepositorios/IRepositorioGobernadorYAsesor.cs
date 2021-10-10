@@ -15,9 +15,12 @@ namespace AsigOficinas.App.Persistencia
         GobernadorYAsesor UpdateGobernadorYAsesor (GobernadorYAsesor gobernadorYAsesor);
 
         // Borrar
-        void DeleteGobernadorYAsesor (int idGobernadorYAsesor);
+        bool DeleteGobernadorYAsesor (int idGobernadorYAsesor);
 
         // ver
         GobernadorYAsesor GetGobernadorYAsesor (int idGobernadorYAsesor);
+
+        // Metodos
+        Diagnostico asignarDiagnostico(int idGobernadorYAsesor, int idDiagnostico);
     }
 }

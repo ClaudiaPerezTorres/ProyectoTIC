@@ -28,13 +28,14 @@ namespace AsigOficinas.App.Persistencia
             return registroAdicionado.Entity;
         }
 
-        void IRepositorioRegistro.DeleteRegistro(int idRegistro)
+        bool IRepositorioRegistro.DeleteRegistro(int idRegistro)
         {
             var registroEncontrado= _appContext.Registro.FirstOrDefault(r=>r.id == idRegistro);
             if(registroEncontrado==null)
-                return;
+                return false;
             _appContext.Registro.Remove(registroEncontrado);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<Registro> IRepositorioRegistro.GetAllRegistro()

@@ -15,9 +15,12 @@ namespace AsigOficinas.App.Persistencia
         PersonalDeAseo UpdatePersonalDeAseo (PersonalDeAseo personalDeAseo);
 
         // Borrar
-        void DeletePersonalDeAseo (int idPersonalDeAseo); 
+        bool DeletePersonalDeAseo (int idPersonalDeAseo); 
 
         // ver
         PersonalDeAseo GetPersonalDeAseo (int idPersonalDeAseo);
+        
+        // Metodos
+        Diagnostico asignarDiagnostico(int idPersonalDeAseo, int idDiagnostico);
     }
 }

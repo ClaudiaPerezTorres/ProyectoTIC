@@ -21,6 +21,23 @@ namespace AsigOficinas.App.Persistencia
         {
             _appContext=appContext;
         }
+
+        Diagnostico IRepositorioPersonalDeAseo.asignarDiagnostico(int idPersonalDeAseo, int idDiagnostico)
+        {
+            var personalDeAseoEncontrado = _appContext.PersonalDeAseo.FirstOrDefault(g => g.id == idPersonalDeAseo);
+            if (personalDeAseoEncontrado != null)
+            {
+                var diagnosticoEncontrado = _appContext.Diagnostico.FirstOrDefault(d => d.id == idDiagnostico);
+                if (diagnosticoEncontrado != null)
+                {
+                    personalDeAseoEncontrado.diagnostico = diagnosticoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return diagnosticoEncontrado;
+            }
+            return null;
+        }
+
         PersonalDeAseo IRepositorioPersonalDeAseo.AddPersonalDeAseo(PersonalDeAseo personalDeAseo)
         {
             var PersonalDeAseoAdicionada= _appContext.PersonalDeAseo.Add(personalDeAseo);
@@ -28,13 +45,14 @@ namespace AsigOficinas.App.Persistencia
             return PersonalDeAseoAdicionada.Entity;
         }
 
-        void IRepositorioPersonalDeAseo.DeletePersonalDeAseo(int idPersonalDeAseo)
+        bool IRepositorioPersonalDeAseo.DeletePersonalDeAseo(int idPersonalDeAseo)
         {
             var PersonalDeAseoEncontrada= _appContext.PersonalDeAseo.FirstOrDefault(a=>a.id == idPersonalDeAseo);
             if(PersonalDeAseoEncontrada==null)
-                return;
+                return false;
             _appContext.PersonalDeAseo.Remove(PersonalDeAseoEncontrada);
             _appContext.SaveChanges();
+            return false;
         }
 
         IEnumerable<PersonalDeAseo> IRepositorioPersonalDeAseo.GetAllPersonalDeAseo()

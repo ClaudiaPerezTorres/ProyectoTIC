@@ -17,24 +17,25 @@ namespace AsigOficinas.App.Persistencia
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
         /// <param name="appContext"></param>//
-        public RepositorioSede (appContext appContext)
+        public RepositorioSede(appContext appContext)
         {
             _appContext=appContext;
         }
         Sede IRepositorioSede.AddSede(Sede sede)
         {
-            var sedeAdicionada= _appContext.Sede.Add(sede);
+            var sedeAdicionada = _appContext.Sede.Add(sede);
             _appContext.SaveChanges();
             return sedeAdicionada.Entity;
         }
 
-        void IRepositorioSede.DeleteSede(int idSede)
+        bool IRepositorioSede.DeleteSede(int idSede)
         {
-            var sedeEncontrada= _appContext.Sede.FirstOrDefault(s=>s.id == idSede);
-            if(sedeEncontrada==null)
-                return;
+            var sedeEncontrada = _appContext.Sede.FirstOrDefault(s => s.id == idSede);
+            if (sedeEncontrada == null)
+                return false;
             _appContext.Sede.Remove(sedeEncontrada);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<Sede> IRepositorioSede.GetAllSede()
@@ -44,13 +45,13 @@ namespace AsigOficinas.App.Persistencia
 
         Sede IRepositorioSede.GetSede(int idSede)
         {
-            return _appContext.Sede.FirstOrDefault(s=>s.id == idSede);
+            return _appContext.Sede.FirstOrDefault(s => s.id == idSede);
         }
 
         Sede IRepositorioSede.UpdateSede(Sede sede)
         {
-            var sedeEncontrada = _appContext.Sede.FirstOrDefault(s=>s.id == sede.id);
-            if (sedeEncontrada!=null)
+            var sedeEncontrada = _appContext.Sede.FirstOrDefault(s => s.id == sede.id);
+            if (sedeEncontrada != null)
             {
                 sedeEncontrada.nombre = sede.nombre;
                 sedeEncontrada.ubicacion = sede.ubicacion;

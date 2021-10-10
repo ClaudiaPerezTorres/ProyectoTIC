@@ -15,7 +15,7 @@ namespace AsigOficinas.App.Persistencia
         Sistema UpdateSistema (Sistema sistema);
 
         // Borrar
-        void DeleteSistema (int idSistema);
+        bool DeleteSistema (int idSistema);
 
         // ver
         Sistema GetSistema (int idSistema);

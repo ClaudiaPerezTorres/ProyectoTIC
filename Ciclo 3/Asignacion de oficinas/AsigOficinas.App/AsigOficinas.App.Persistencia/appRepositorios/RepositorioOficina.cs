@@ -45,13 +45,14 @@ namespace AsigOficinas.App.Persistencia
             return oficinaEncontrada;
         }
 
-        void IRepositorioOficina.DeleteOficina (int idOficina)
+        bool IRepositorioOficina.DeleteOficina (int idOficina)
         {
             var oficinaEncontrada= _appContext.Oficina.FirstOrDefault(o=>o.id == idOficina);
             if(oficinaEncontrada==null)
-                return;
+                return false;
             _appContext.Oficina.Remove(oficinaEncontrada);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<Oficina> IRepositorioOficina.GetAllOficina ()

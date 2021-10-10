@@ -28,13 +28,14 @@ namespace AsigOficinas.App.Persistencia
             return gobernacionAdicionada.Entity;
         }
 
-        void IRepositorioGobernacion.DeleteGobernacion(int idGobernacion)
+        bool IRepositorioGobernacion.DeleteGobernacion(int idGobernacion)
         {
             var gobernacionEncontrada= _appContext.Gobernacion.FirstOrDefault(g=>g.id == idGobernacion);
             if(gobernacionEncontrada==null)
-                return;
+                return false;
             _appContext.Gobernacion.Remove(gobernacionEncontrada);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<Gobernacion> IRepositorioGobernacion.GetAllGobernacion()

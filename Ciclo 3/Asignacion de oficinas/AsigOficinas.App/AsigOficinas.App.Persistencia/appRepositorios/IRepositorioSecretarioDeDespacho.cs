@@ -15,9 +15,12 @@ namespace AsigOficinas.App.Persistencia
         SecretarioDeDespacho UpdateSecretarioDeDespacho (SecretarioDeDespacho secretarioDeDespacho);
 
         // Borrar
-        void DeleteSecretarioDeDespacho (int idSecretarioDeDespacho); 
+        bool DeleteSecretarioDeDespacho (int idSecretarioDeDespacho); 
 
         // ver
         SecretarioDeDespacho GetSecretarioDeDespacho (int idSecretarioDeDespacho); 
+
+        // Metodos
+        Diagnostico asignarDiagnostico(int idSecretarioDeDespacho, int idDiagnostico);
     }
 }

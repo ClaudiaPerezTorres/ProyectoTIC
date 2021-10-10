@@ -15,7 +15,7 @@ namespace AsigOficinas.App.Persistencia
         Registro UpdateRegistro (Registro registro);
 
         // Borrar
-        void DeleteRegistro (int idRegistro);
+        bool DeleteRegistro (int idRegistro);
 
         // ver
         Registro GetRegistro (int idRegistro);

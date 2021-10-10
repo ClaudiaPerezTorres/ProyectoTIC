@@ -28,13 +28,14 @@ namespace AsigOficinas.App.Persistencia
             return sistemaAdicionado.Entity;
         }
 
-        void IRepositorioSistema.DeleteSistema(int idSistema)
+        bool IRepositorioSistema.DeleteSistema(int idSistema)
         {
             var sistemaEncontrado= _appContext.Sistema.FirstOrDefault(a=>a.id == idSistema);
             if(sistemaEncontrado==null)
-                return;
+                return false;
             _appContext.Sistema.Remove(sistemaEncontrado);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<Sistema> IRepositorioSistema.GetAllSistema()

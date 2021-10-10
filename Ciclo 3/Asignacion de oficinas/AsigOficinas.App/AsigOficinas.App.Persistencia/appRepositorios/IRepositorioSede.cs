@@ -15,7 +15,7 @@ namespace AsigOficinas.App.Persistencia
         Sede UpdateSede (Sede sede);
 
         // Borrar 
-        void DeleteSede (int idSede);
+        bool DeleteSede (int idSede);
 
         // ver
         Sede GetSede (int idSede);

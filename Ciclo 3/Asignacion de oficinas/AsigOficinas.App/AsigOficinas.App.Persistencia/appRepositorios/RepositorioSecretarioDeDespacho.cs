@@ -21,6 +21,23 @@ namespace AsigOficinas.App.Persistencia
         {
             _appContext=appContext;
         }
+
+        Diagnostico IRepositorioSecretarioDeDespacho.asignarDiagnostico(int idSecretarioDeDespacho, int idDiagnostico)
+        {
+            var secretarioDeDespachoEncontrado = _appContext.SecretarioDeDespacho.FirstOrDefault(g => g.id == idSecretarioDeDespacho);
+            if (secretarioDeDespachoEncontrado != null)
+            {
+                var diagnosticoEncontrado = _appContext.Diagnostico.FirstOrDefault(d => d.id == idDiagnostico);
+                if (diagnosticoEncontrado != null)
+                {
+                    secretarioDeDespachoEncontrado.diagnostico = diagnosticoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return diagnosticoEncontrado;
+            }
+            return null;
+        }
+
         SecretarioDeDespacho IRepositorioSecretarioDeDespacho.AddSecretarioDeDespacho(SecretarioDeDespacho secretarioDeDespacho)
         {
             var secretarioDeDespachoAdicionada= _appContext.SecretarioDeDespacho.Add(secretarioDeDespacho);
@@ -28,13 +45,14 @@ namespace AsigOficinas.App.Persistencia
             return secretarioDeDespachoAdicionada.Entity;
         }
 
-        void IRepositorioSecretarioDeDespacho.DeleteSecretarioDeDespacho(int idSecretarioDeDespacho)
+        bool IRepositorioSecretarioDeDespacho.DeleteSecretarioDeDespacho(int idSecretarioDeDespacho)
         {
             var secretarioDeDespachoEncontrada= _appContext.SecretarioDeDespacho.FirstOrDefault(s=>s.id == idSecretarioDeDespacho);
             if(secretarioDeDespachoEncontrada==null)
-                return;
+                return false;
             _appContext.SecretarioDeDespacho.Remove(secretarioDeDespachoEncontrada);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<SecretarioDeDespacho> IRepositorioSecretarioDeDespacho.GetAllSecretarioDeDespacho()

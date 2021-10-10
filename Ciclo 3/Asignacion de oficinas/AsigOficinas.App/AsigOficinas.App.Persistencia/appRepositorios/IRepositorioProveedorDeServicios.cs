@@ -15,9 +15,12 @@ namespace AsigOficinas.App.Persistencia.appRepositorios
         ProveedorDeServicios UpdateProveedorDeServicios (ProveedorDeServicios proveedorDeServicios);
 
         // Borrar 
-        void DeleteProveedorDeServicios (int idProveedorDeServicios); 
+        bool DeleteProveedorDeServicios (int idProveedorDeServicios); 
 
         // ver
         ProveedorDeServicios GetProveedorDeServicios (int idProveedorDeServicios);
+        
+        // Metodos
+        Diagnostico asignarDiagnostico(int idProveedorDeServicios, int idDiagnostico);
     }
 }

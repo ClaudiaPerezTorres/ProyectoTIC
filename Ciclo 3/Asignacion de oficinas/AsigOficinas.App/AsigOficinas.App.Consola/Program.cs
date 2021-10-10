@@ -10,7 +10,7 @@ namespace AsigOficinas.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! Probando CRUD de las entidades");
-            AddOficina();
+            //AddOficina();
             //BuscarOficina(1);
             AddSede();
         }
@@ -29,8 +29,8 @@ namespace AsigOficinas.App.Consola
         private static void AddSede(){
             var sede = new Sede
             {
-                nombre = "Centro",
-                ubicacion = "Cll. 15 #2N-15"
+                nombre = "Oriente",
+                ubicacion = "Barrio Alamos"
             };
             _repoSede.AddSede(sede);
         }

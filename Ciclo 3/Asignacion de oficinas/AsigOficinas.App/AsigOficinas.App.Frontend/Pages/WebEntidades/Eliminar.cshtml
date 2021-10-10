@@ -1,0 +1,15 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EliminarModel
+@{
+}
+<h1>Desea Eliminar sede</h1>
+<table class="table">
+    <tr>
+        <td>@Model.sede.nombre</td>
+        <td>@Model.sede.ubicacion</td>
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="sede.id"/>
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+</form>

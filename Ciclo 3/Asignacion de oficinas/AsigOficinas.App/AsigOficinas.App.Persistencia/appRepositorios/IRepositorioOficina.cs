@@ -15,7 +15,7 @@ namespace AsigOficinas.App.Persistencia
         Oficina UpdateOficina (Oficina oficina);
 
         // Borrar
-        void DeleteOficina (int oficina);
+        bool DeleteOficina (int oficina);
 
         // ver
         Oficina GetOficina (int idOficina);

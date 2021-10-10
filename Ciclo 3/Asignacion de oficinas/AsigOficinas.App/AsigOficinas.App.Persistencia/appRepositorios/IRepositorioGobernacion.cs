@@ -15,7 +15,7 @@ namespace AsigOficinas.App.Persistencia
         Gobernacion UpdateGobernacion (Gobernacion gobernacion);
 
         // Borrar 
-        void DeleteGobernacion (int idGobernacion);
+        bool DeleteGobernacion (int idGobernacion);
 
         // ver
         Gobernacion GetGobernacion (int idGobernacion);

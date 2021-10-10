@@ -21,6 +21,23 @@ namespace AsigOficinas.App.Persistencia.appRepositorios
         {
             _appContext=appContext;
         }
+
+        Diagnostico IRepositorioProveedorDeServicios.asignarDiagnostico(int idProveedorDeServicios, int idDiagnostico)
+        {
+            var proveedorDeServiciosEncontrado = _appContext.ProveedorDeServicios.FirstOrDefault(g => g.id == idProveedorDeServicios);
+            if (proveedorDeServiciosEncontrado != null)
+            {
+                var diagnosticoEncontrado = _appContext.Diagnostico.FirstOrDefault(d => d.id == idDiagnostico);
+                if (diagnosticoEncontrado != null)
+                {
+                    proveedorDeServiciosEncontrado.diagnostico = diagnosticoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return diagnosticoEncontrado;
+            }
+            return null;
+        }
+
         ProveedorDeServicios IRepositorioProveedorDeServicios.AddProveedorDeServicios(ProveedorDeServicios proveedorDeServicios)
         {
             var proveedorDeServiciosAdicionada= _appContext.ProveedorDeServicios.Add(proveedorDeServicios);
@@ -28,13 +45,14 @@ namespace AsigOficinas.App.Persistencia.appRepositorios
             return proveedorDeServiciosAdicionada.Entity;
         }
 
-        void IRepositorioProveedorDeServicios.DeleteProveedorDeServicios(int idProveedorDeServicios)
+        bool IRepositorioProveedorDeServicios.DeleteProveedorDeServicios(int idProveedorDeServicios)
         {
             var proveedorDeServiciosEncontrada= _appContext.ProveedorDeServicios.FirstOrDefault(p=>p.id == idProveedorDeServicios);
             if(proveedorDeServiciosEncontrada==null)
-                return;
+                return false;
             _appContext.ProveedorDeServicios.Remove(proveedorDeServiciosEncontrada);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<ProveedorDeServicios> IRepositorioProveedorDeServicios.GetAllProveedorDeServicios()

@@ -35,13 +35,14 @@ namespace AsigOficinas.App.Persistencia
             return diagnosticoAdicionado.Entity;
         }
 
-        void IRepositorioDiagnostico.DeleteDiagnostico(int idDiagnostico)
+        bool IRepositorioDiagnostico.DeleteDiagnostico(int idDiagnostico)
         {
             var diagnosticoEncontrado= _appContext.Diagnostico.FirstOrDefault(d=>d.id == idDiagnostico);
             if(diagnosticoEncontrado==null)
-                return;
+                return false;
             _appContext.Diagnostico.Remove(diagnosticoEncontrado);
             _appContext.SaveChanges();
+            return true;
         }
 
         IEnumerable<Diagnostico> IRepositorioDiagnostico.GetAllDiagnostico()

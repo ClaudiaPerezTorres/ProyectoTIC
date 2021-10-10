@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using AsigOficinas.App.Persistencia;
 namespace AsigOficinas.App.Frontend
 {
     public class Startup
@@ -24,6 +24,8 @@ namespace AsigOficinas.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            //Adiciona un solo servicio
+            /* services.AddSingleton<IRepositorioSede, RepositorioSede>(); */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
