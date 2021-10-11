@@ -79,7 +79,7 @@ C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficina
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\bin\Debug\netcoreapp3.1\AsigOficinas.App.Persistencia.dll
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\bin\Debug\netcoreapp3.1\AsigOficinas.App.Dominio.pdb
 C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\bin\Debug\netcoreapp3.1\AsigOficinas.App.Persistencia.pdb
-C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebEntidades\Detalles.cshtml.g.cs
-C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebEntidades\Editar.cshtml.g.cs
-C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebEntidades\Eliminar.cshtml.g.cs
-C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebEntidades\sede.cshtml.g.cs
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebSede\DetallesSede.cshtml.g.cs
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebSede\EditarSede.cshtml.g.cs
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebSede\EliminarSede.cshtml.g.cs
+C:\Users\USUARIO\Desktop\Repositorios\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebSede\sede.cshtml.g.cs
