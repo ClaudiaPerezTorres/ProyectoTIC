@@ -1,0 +1,21 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EliminarOficinaModel
+@{
+}
+<h1>Desea eliminar oficina</h1>
+<table class="table">
+    <tr>
+        <td>@Model.oficina.numero</td>
+        <td>@Model.oficina.aforo</td>
+        <td>@Model.oficina.horaLaboral</td>
+        <td>@Model.oficina.numeroPersonas</td>
+        <td>@Model.oficina.estadoOficina</td>
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="oficina.id" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash" aria-hidden="true"></i>
+        Confirmar eliminar
+    </button>
+</form>

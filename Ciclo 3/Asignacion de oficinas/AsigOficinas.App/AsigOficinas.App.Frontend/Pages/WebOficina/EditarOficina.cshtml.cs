@@ -4,32 +4,30 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using AsigOficinas.App.Persistencia;
 using AsigOficinas.App.Dominio;
-using System.CodeDom;
-using System.Diagnostics;
+using AsigOficinas.App.Persistencia;
 
 namespace AsigOficinas.App.Frontend.Pages
 {
-    public class EditarModel : PageModel
+    public class EditarOficinaModel : PageModel
     {
-        private static IRepositorioSede _repositorioSede = new RepositorioSede(new Persistencia.appContext());
+        private static IRepositorioOficina _repositorioOficina = new RepositorioOficina(new Persistencia.appContext());
         [BindProperty]
-        public Sede sede {get;set;}
-        public IActionResult OnGet(int? idSede)
+        public Oficina oficina { get; set; }
+        public IActionResult OnGet(int? idOficina)
         {
-            if (idSede.HasValue)
+            if (idOficina.HasValue)
             {
-                sede = _repositorioSede.GetSede(idSede.Value);
+                oficina = _repositorioOficina.GetOficina(idOficina.Value);
             }
             else
             {
-                sede = new Sede();
+                oficina = new Oficina();
             }
 
-            if (sede == null)
+            if (oficina == null)
             {
-                return RedirectToPage("./sede");
+                return RedirectToPage("./oficina");
             }
             else
             {
@@ -44,16 +42,16 @@ namespace AsigOficinas.App.Frontend.Pages
             }
             else
             {
-                if (sede.id > 0)
+                if (oficina.id > 0)
                 {
-                    _repositorioSede.UpdateSede(sede);
+                    _repositorioOficina.UpdateOficina(oficina);
                 }
                 else
                 {
-                    _repositorioSede.AddSede(sede);
+                    _repositorioOficina.AddOficina(oficina);
                 }
             }
-            return RedirectToPage("./sede");
+            return RedirectToPage("./oficina");
         }
     }
 }

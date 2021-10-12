@@ -1,0 +1,15 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.DetallesOficinaModel
+@{
+}
+<h1>Detalles de la oficina</h1>
+<table class="table">
+    <tr>
+        <td>@Model.oficina.numero</td>
+        <td>@Model.oficina.aforo</td>
+        <td>@Model.oficina.horaLaboral</td>
+        <td>@Model.oficina.numeroPersonas</td>
+        <td>@Model.oficina.estadoOficina</td>
+    </tr>
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/WebOficina/Oficina"><i class="bi bi-arrow-left"></i></i> Oficinas</a>
