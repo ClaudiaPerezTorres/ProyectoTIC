@@ -14442,6 +14442,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebGobernadorYAsesor\\DetallesgobenadorAsesor.cshtml",
+      "TargetPath": "Pages\\WebGobernadorYAsesor\\DetallesgobenadorAsesor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebOficina\\oficina.cshtml",
       "TargetPath": "Pages\\WebOficina\\oficina.cshtml",
       "FileKind": "mvc"
@@ -14459,6 +14464,11 @@
     {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebGobernadorYAsesor\\EliminargobenadorAsesor.cshtml",
+      "TargetPath": "Pages\\WebGobernadorYAsesor\\EliminargobenadorAsesor.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14514,6 +14524,11 @@
     {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebSede\\EditarSede.cshtml",
       "TargetPath": "Pages\\WebSede\\EditarSede.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebGobernadorYAsesor\\EditargobenadorAsesor.cshtml",
+      "TargetPath": "Pages\\WebGobernadorYAsesor\\EditargobenadorAsesor.cshtml",
       "FileKind": "mvc"
     },
     {

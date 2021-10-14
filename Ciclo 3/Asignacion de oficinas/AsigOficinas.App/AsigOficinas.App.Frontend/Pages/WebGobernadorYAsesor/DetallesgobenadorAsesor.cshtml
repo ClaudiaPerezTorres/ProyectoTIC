@@ -1,0 +1,32 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.DetallesgobenadorAsesorModel
+@{
+}
+<h2>Detalles del gobenador o asesor</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Identificacion</th>
+            <th>Edad</th>
+            <th>Estado COVID</th>
+            <th>Diagnostico</th>
+            <th>Oficina visitada</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.gobernadorYAsesor.nombre</td>
+            <td>@Model.gobernadorYAsesor.apellido</td>
+            <td>@Model.gobernadorYAsesor.identificacion</td>
+            <td>@Model.gobernadorYAsesor.edad</td>
+            <td>@Model.gobernadorYAsesor.estadoCovid</td>
+            <td>@Model.gobernadorYAsesor.diagnostico</td>
+            <td>@Model.gobernadorYAsesor.oficinasVisitadas
+            </td>
+        </tr>
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/WebGobernadorYAsesor/gobenadorAsesor"><i class="bi bi-arrow-left"></i></i>
+    gobenador y asesores</a>

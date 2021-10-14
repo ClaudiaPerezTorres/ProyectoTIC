@@ -269,3 +269,7 @@ C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebSecretarioDeDespacho\EditarsecretarioDespacho.cshtml.g.cs
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebSecretarioDeDespacho\EliminarsecretarioDespacho.cshtml.g.cs
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebSecretarioDeDespacho\secretarioDespacho.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebGobernadorYAsesor\DetallesgobenadorAsesor.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebGobernadorYAsesor\EditargobenadorAsesor.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebGobernadorYAsesor\EliminargobenadorAsesor.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebGobernadorYAsesor\gobenadorAsesor.cshtml.g.cs

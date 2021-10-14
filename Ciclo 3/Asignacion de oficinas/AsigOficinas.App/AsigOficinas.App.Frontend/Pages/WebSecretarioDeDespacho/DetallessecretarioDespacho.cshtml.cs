@@ -13,9 +13,9 @@ namespace AsigOficinas.App.Frontend.Pages
     {
         private static IRepositorioSecretarioDeDespacho _repositorioSecretarioDeDespacho = new RepositorioSecretarioDeDespacho(new Persistencia.appContext());
         public SecretarioDeDespacho secretarioDeDespachos { get; set; }
-        public IActionResult OnGet(int idPersonalDeAseo)
+        public IActionResult OnGet(int idSecretarioDeDespacho)
         {
-            secretarioDeDespachos = _repositorioSecretarioDeDespacho.GetSecretarioDeDespacho(idPersonalDeAseo);
+            secretarioDeDespachos = _repositorioSecretarioDeDespacho.GetSecretarioDeDespacho(idSecretarioDeDespacho);
             if (secretarioDeDespachos == null)
             {
                 return RedirectToPage("./secretarioDespacho");

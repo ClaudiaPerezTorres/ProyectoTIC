@@ -9,13 +9,18 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AsigOficinas.App.Frontend.Pages
 {
-    public class gobenadorAsesorModel : PageModel
+    public class DetallesgobenadorAsesorModel : PageModel
     {
         private static IRepositorioGobernadorYAsesor _repositorioGobernadorYAsesor = new RepositorioGobernadorYAsesor(new Persistencia.appContext());
-        public IEnumerable<GobernadorYAsesor> gobernadorYAsesors { get; set; }
-        public void OnGet()
+        public GobernadorYAsesor gobernadorYAsesor { get; set; }
+        public IActionResult OnGet(int idGobernadorYAsesor)
         {
-            gobernadorYAsesors = _repositorioGobernadorYAsesor.GetAllGobernadorYAsesor();
+            gobernadorYAsesor = _repositorioGobernadorYAsesor.GetGobernadorYAsesor(idGobernadorYAsesor);
+            if(gobernadorYAsesor == null)
+            {
+                return RedirectToPage("./gobenadorAsesor");
+            }
+            return Page();
         }
     }
 }

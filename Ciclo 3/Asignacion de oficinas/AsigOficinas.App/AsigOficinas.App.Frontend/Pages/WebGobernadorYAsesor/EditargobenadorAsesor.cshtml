@@ -1,0 +1,41 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EditargobenadorAsesorModel
+@{
+}
+<h2>Editar gobernador o asesor</h2>
+<div class="container-fluid">
+    <form method="post">
+        <input type="hidden" asp-for="gobernadorYAsesor.id">
+        <div class="form-group">
+            <label asp-for="gobernadorYAsesor.nombre"></label>
+            <input asp-for="gobernadorYAsesor.nombre" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernadorYAsesor.nombre"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernadorYAsesor.apellido"></label>
+            <input asp-for="gobernadorYAsesor.apellido" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernadorYAsesor.apellido"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernadorYAsesor.identificacion"></label>
+            <input asp-for="gobernadorYAsesor.identificacion" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernadorYAsesor.identificacion"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernadorYAsesor.edad"></label>
+            <input asp-for="gobernadorYAsesor.edad" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernadorYAsesor.edad"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernadorYAsesor.estadoCovid"></label>
+            <input asp-for="gobernadorYAsesor.estadoCovid" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernadorYAsesor.estadoCovid"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernadorYAsesor.oficinasVisitadas"></label>
+            <input asp-for="gobernadorYAsesor.oficinasVisitadas" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernadorYAsesor.oficinasVisitadas"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+</div>
