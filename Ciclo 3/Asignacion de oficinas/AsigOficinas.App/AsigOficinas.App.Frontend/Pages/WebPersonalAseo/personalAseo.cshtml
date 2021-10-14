@@ -1,0 +1,41 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.personalAseoModel
+@{
+}
+<h1>Listado de personal de aseo</h1>
+<table class="table">
+    @foreach (var personalAseo in Model.personalDeAseos)
+    {
+        <tr>
+            <td>@personalAseo.nombre</td>
+            <td>@personalAseo.apellido</td>
+            <td>@personalAseo.identificacion</td>
+            <td>@personalAseo.edad</td>
+            <td>@personalAseo.estadoCovid</td>
+            <td>@personalAseo.diagnostico</td>
+            <td>@personalAseo.turnoDesarrolloServicio</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallespersonalAseo" asp-route-idPersonalDeAseo="@personalAseo.id">
+                    <i class="bi bi-info-circle" aria-hidden="true"></i>
+                    Detalle
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="./EditarpersonalAseo" asp-route-idPersonalDeAseo="@personalAseo.id">
+                    <i class="bi bi-pencil-square" aria-hidden="true"></i>
+                    Editar
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./EliminarpersonalAseo" asp-route-idPersonalDeAseo="@personalAseo.id">
+                    <i class="bi bi-trash" aria-hidden="true"></i>
+                    Eliminar
+                </a>
+            </td>
+        </tr>
+    }
+</table>
+<a class="btn btn-primary table-btn" asp-page="./EditarpersonalAseo">
+    <i class="bi bi-file-plus" aria-hidden="true"></i>
+    Crear personal de aseo
+</a>

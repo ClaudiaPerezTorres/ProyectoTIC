@@ -1,0 +1,23 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EliminarpersonalAseoModel
+@{
+}
+<h1>Desea eliminar personal de aseo</h1>
+<table class="table">
+    <tr>
+        <td>@Model.personalDeAseo.nombre</td>
+        <td>@Model.personalDeAseo.apellido</td>
+        <td>@Model.personalDeAseo.identificacion</td>
+        <td>@Model.personalDeAseo.edad</td>
+        <td>@Model.personalDeAseo.estadoCovid</td>
+        <td>@Model.personalDeAseo.diagnostico</td>
+        <td>@Model.personalDeAseo.turnoDesarrolloServicio</td>
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="personalDeAseo.id" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash" aria-hidden="true"></i>
+        Confirmar eliminar
+    </button>
+</form>

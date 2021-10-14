@@ -52,7 +52,7 @@ namespace AsigOficinas.App.Persistencia
                 return false;
             _appContext.PersonalDeAseo.Remove(PersonalDeAseoEncontrada);
             _appContext.SaveChanges();
-            return false;
+            return true;
         }
 
         IEnumerable<PersonalDeAseo> IRepositorioPersonalDeAseo.GetAllPersonalDeAseo()

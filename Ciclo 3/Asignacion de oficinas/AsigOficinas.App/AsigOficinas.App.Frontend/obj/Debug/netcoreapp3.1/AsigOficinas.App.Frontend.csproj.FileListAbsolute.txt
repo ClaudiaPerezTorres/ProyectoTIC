@@ -257,3 +257,7 @@ C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebOficina\EditarOficina.cshtml.g.cs
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebOficina\EliminarOficina.cshtml.g.cs
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebOficina\DetallesOficina.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebPersonalAseo\personalAseo.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebPersonalAseo\DetallesPersonalAseo.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebPersonalAseo\EditarpersonalAseo.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebPersonalAseo\EliminarpersonalAseo.cshtml.g.cs

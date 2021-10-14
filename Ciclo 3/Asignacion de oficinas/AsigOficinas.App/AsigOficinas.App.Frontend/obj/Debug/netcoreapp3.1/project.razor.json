@@ -14447,8 +14447,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebPersonalAseo\\EliminarpersonalAseo.cshtml",
+      "TargetPath": "Pages\\WebPersonalAseo\\EliminarpersonalAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebPersonalAseo\\personalAseo.cshtml",
+      "TargetPath": "Pages\\WebPersonalAseo\\personalAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebPersonalAseo\\DetallespersonalAseo.cshtml",
+      "TargetPath": "Pages\\WebPersonalAseo\\DetallespersonalAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebPersonalAseo\\EditarpersonalAseo.cshtml",
+      "TargetPath": "Pages\\WebPersonalAseo\\EditarpersonalAseo.cshtml",
       "FileKind": "mvc"
     },
     {
