@@ -14402,6 +14402,11 @@
   "RootNamespace": "AsigOficinas.App.Frontend",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebSecretarioDeDespacho\\DetallessecretarioDespacho.cshtml",
+      "TargetPath": "Pages\\WebSecretarioDeDespacho\\DetallessecretarioDespacho.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -14422,6 +14427,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebProveedorDeServicios\\EliminarproveedorServicios.cshtml",
+      "TargetPath": "Pages\\WebProveedorDeServicios\\EliminarproveedorServicios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebProveedorDeServicios\\DetallesproveedorServicios.cshtml",
+      "TargetPath": "Pages\\WebProveedorDeServicios\\DetallesproveedorServicios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebSede\\sede.cshtml",
       "TargetPath": "Pages\\WebSede\\sede.cshtml",
       "FileKind": "mvc"
@@ -14432,6 +14447,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebSecretarioDeDespacho\\secretarioDespacho.cshtml",
+      "TargetPath": "Pages\\WebSecretarioDeDespacho\\secretarioDespacho.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14439,6 +14459,11 @@
     {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebProveedorDeServicios\\EditarproveedorServicios.cshtml",
+      "TargetPath": "Pages\\WebProveedorDeServicios\\EditarproveedorServicios.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14454,6 +14479,11 @@
     {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebSecretarioDeDespacho\\EditarsecretarioDespacho.cshtml",
+      "TargetPath": "Pages\\WebSecretarioDeDespacho\\EditarsecretarioDespacho.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14482,8 +14512,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebSecretarioDeDespacho\\EliminarsecretarioDespacho.cshtml",
+      "TargetPath": "Pages\\WebSecretarioDeDespacho\\EliminarsecretarioDespacho.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebOficina\\EditarOficina.cshtml",
       "TargetPath": "Pages\\WebOficina\\EditarOficina.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebProveedorDeServicios\\proveedorServicios.cshtml",
+      "TargetPath": "Pages\\WebProveedorDeServicios\\proveedorServicios.cshtml",
       "FileKind": "mvc"
     },
     {

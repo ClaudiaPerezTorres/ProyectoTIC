@@ -1,0 +1,18 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.DetallesproveedorServiciosModel
+@{
+}
+<h1>Detalles del proveedor de servicios</h1>
+<table class="table">
+    <tr>
+        <td>@Model.proveedorDeServicios.nombre</td>
+        <td>@Model.proveedorDeServicios.apellido</td>
+        <td>@Model.proveedorDeServicios.identificacion</td>
+        <td>@Model.proveedorDeServicios.edad</td>
+        <td>@Model.proveedorDeServicios.estadoCovid</td>
+        <td>@Model.proveedorDeServicios.diagnostico</td>
+        <td>@Model.proveedorDeServicios.servicioRealizado</td>
+        <td>@Model.proveedorDeServicios.undDesarrolloServicio</td>
+    </tr>
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/WebProveedorDeServicios/proveedorServicios"><i class="bi bi-arrow-left"></i></i> proveedores de servicios</a>

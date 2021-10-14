@@ -1,0 +1,24 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EliminarproveedorServiciosModel
+@{
+}
+<h1>Desea eliminar proveedor de servicios</h1>
+<table class="table">
+    <tr>
+        <td>@Model.proveedorDeServicios.nombre</td>
+        <td>@Model.proveedorDeServicios.apellido</td>
+        <td>@Model.proveedorDeServicios.identificacion</td>
+        <td>@Model.proveedorDeServicios.edad</td>
+        <td>@Model.proveedorDeServicios.estadoCovid</td>
+        <td>@Model.proveedorDeServicios.diagnostico</td>
+        <td>@Model.proveedorDeServicios.servicioRealizado</td>
+        <td>@Model.proveedorDeServicios.undDesarrolloServicio</td>
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="proveedorDeServicios.id" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash" aria-hidden="true"></i>
+        Confirmar eliminar
+    </button>
+</form>

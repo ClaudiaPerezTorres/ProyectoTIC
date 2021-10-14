@@ -1,0 +1,46 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EditarproveedorServiciosModel
+@{
+}
+<h1>Editar proveedor de servicios</h1>
+<div class="container-fluid">
+    <form method="post">
+        <input type="hidden" asp-for="proveedorDeServicios.id">
+        <div class="form-group">
+            <label asp-for="proveedorDeServicios.nombre"></label>
+            <input asp-for="proveedorDeServicios.nombre" class="form-control">
+            <span class="text-danger" asp-validation-for="proveedorDeServicios.nombre"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="proveedorDeServicios.apellido"></label>
+            <input asp-for="proveedorDeServicios.apellido" class="form-control">
+            <span class="text-danger" asp-validation-for="proveedorDeServicios.apellido"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="proveedorDeServicios.identificacion"></label>
+            <input asp-for="proveedorDeServicios.identificacion" class="form-control">
+            <span class="text-danger" asp-validation-for="proveedorDeServicios.identificacion"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="proveedorDeServicios.edad"></label>
+            <input asp-for="proveedorDeServicios.edad" class="form-control">
+            <span class="text-danger" asp-validation-for="proveedorDeServicios.edad"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="proveedorDeServicios.estadoCovid"></label>
+            <input asp-for="proveedorDeServicios.estadoCovid" class="form-control">
+            <span class="text-danger" asp-validation-for="proveedorDeServicios.estadoCovid"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="proveedorDeServicios.servicioRealizado"></label>
+            <input asp-for="proveedorDeServicios.servicioRealizado" class="form-control">
+            <span class="text-danger" asp-validation-for="proveedorDeServicios.servicioRealizado"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="proveedorDeServicios.undDesarrolloServicio"></label>
+            <input asp-for="proveedorDeServicios.undDesarrolloServicio" class="form-control">
+            <span class="text-danger" asp-validation-for="proveedorDeServicios.undDesarrolloServicio"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+</div>
