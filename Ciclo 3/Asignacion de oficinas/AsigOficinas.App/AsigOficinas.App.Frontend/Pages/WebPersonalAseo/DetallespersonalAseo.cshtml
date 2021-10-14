@@ -2,16 +2,30 @@
 @model AsigOficinas.App.Frontend.Pages.DetallespersonalAseoModel
 @{
 }
-<h1>Detalles del personal de aseo</h1>
+<h2>Detalles del personal de aseo</h2>
 <table class="table">
-    <tr>
-        <td>@Model.personalDeAseo.nombre</td>
-        <td>@Model.personalDeAseo.apellido</td>
-        <td>@Model.personalDeAseo.identificacion</td>
-        <td>@Model.personalDeAseo.edad</td>
-        <td>@Model.personalDeAseo.estadoCovid</td>
-        <td>@Model.personalDeAseo.diagnostico</td>
-        <td>@Model.personalDeAseo.turnoDesarrolloServicio</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Identificacion</th>
+            <th>Edad</th>
+            <th>Estado COVID</th>
+            <th>Diagnostico</th>
+            <th>Turno de desarrollo servicio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.personalDeAseo.nombre</td>
+            <td>@Model.personalDeAseo.apellido</td>
+            <td>@Model.personalDeAseo.identificacion</td>
+            <td>@Model.personalDeAseo.edad</td>
+            <td>@Model.personalDeAseo.estadoCovid</td>
+            <td>@Model.personalDeAseo.diagnostico</td>
+            <td>@Model.personalDeAseo.turnoDesarrolloServicio</td>
+        </tr>
+    </tbody>
 </table>
-<a class="btn btn-primary" asp-area="" asp-page="/WebPersonalAseo/personalAseo"><i class="bi bi-arrow-left"></i></i> personal de aseo</a>
+<a class="btn btn-primary" asp-area="" asp-page="/WebPersonalAseo/personalAseo"><i class="bi bi-arrow-left"></i></i>
+    personal de aseo</a>

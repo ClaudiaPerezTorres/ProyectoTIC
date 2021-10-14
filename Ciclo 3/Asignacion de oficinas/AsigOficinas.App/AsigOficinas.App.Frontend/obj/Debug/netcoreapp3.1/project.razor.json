@@ -14497,6 +14497,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebGobernadorYAsesor\\gobenadorAsesor.cshtml",
+      "TargetPath": "Pages\\WebGobernadorYAsesor\\gobenadorAsesor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebPersonalAseo\\EditarpersonalAseo.cshtml",
       "TargetPath": "Pages\\WebPersonalAseo\\EditarpersonalAseo.cshtml",
       "FileKind": "mvc"

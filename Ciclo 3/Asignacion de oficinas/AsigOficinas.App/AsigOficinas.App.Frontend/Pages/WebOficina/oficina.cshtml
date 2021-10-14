@@ -2,36 +2,49 @@
 @model AsigOficinas.App.Frontend.Pages.oficinaModel
 @{
 }
-<h1>Listado de oficinas</h1>
+<h2>Listado de oficinas</h2>
 <table class="table">
-    @foreach (var oficina in Model.Oficinas)
-    {
+    <thead>
         <tr>
-            <td>@oficina.numero</td>
-            <td>@oficina.aforo</td>
-            <td>@oficina.horaLaboral</td>
-            <td>@oficina.numeroPersonas</td>
-            <td>@oficina.estadoOficina</td>
-            <td>
-                <a class="btn btn-primary table-btn" asp-page="./DetallesOficina" asp-route-idOficina="@oficina.id">
-                    <i class="bi bi-info-circle" aria-hidden="true"></i>
-                    Detalle
-                </a>
-            </td>
-            <td>
-                <a class="btn btn-secondary table-btn" asp-page="./EditarOficina" asp-route-idOficina="@oficina.id">
-                    <i class="bi bi-pencil-square" aria-hidden="true"></i>
-                    Editar
-                </a>
-            </td>
-            <td>
-                <a class="btn btn-danger table-btn" asp-page="./EliminarOficina" asp-route-idOficina="@oficina.id">
-                    <i class="bi bi-trash" aria-hidden="true"></i>
-                    Eliminar
-                </a>
-            </td>
+            <th>Numero</th>
+            <th>Aforo</th>
+            <th>Hora laboral</th>
+            <th>Numero personas</th>
+            <th>Estado oficina</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (var oficina in Model.Oficinas)
+            {
+            <tr>
+                <td>@oficina.numero</td>
+                <td>@oficina.aforo</td>
+                <td>@oficina.horaLaboral</td>
+                <td>@oficina.numeroPersonas</td>
+                <td>@oficina.estadoOficina</td>
+                <td>
+                    <a class="btn btn-primary table-btn" asp-page="./DetallesOficina" asp-route-idOficina="@oficina.id">
+                        <i class="bi bi-info-circle" aria-hidden="true"></i>
+                        Detalle
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-secondary table-btn" asp-page="./EditarOficina" asp-route-idOficina="@oficina.id">
+                        <i class="bi bi-pencil-square" aria-hidden="true"></i>
+                        Editar
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger table-btn" asp-page="./EliminarOficina" asp-route-idOficina="@oficina.id">
+                        <i class="bi bi-trash" aria-hidden="true"></i>
+                        Eliminar
+                    </a>
+                </td>
+            </tr>
+            }
+        </tr>
+    </tbody>
 </table>
 <a class="btn btn-primary table-btn" asp-page="./EditarOficina">
     <i class="bi bi-file-plus" aria-hidden="true"></i>

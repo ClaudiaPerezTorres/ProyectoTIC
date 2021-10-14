@@ -2,17 +2,30 @@
 @model AsigOficinas.App.Frontend.Pages.EliminarpersonalAseoModel
 @{
 }
-<h1>Desea eliminar personal de aseo</h1>
+<h2>Desea eliminar personal de aseo</h2>
 <table class="table">
-    <tr>
-        <td>@Model.personalDeAseo.nombre</td>
-        <td>@Model.personalDeAseo.apellido</td>
-        <td>@Model.personalDeAseo.identificacion</td>
-        <td>@Model.personalDeAseo.edad</td>
-        <td>@Model.personalDeAseo.estadoCovid</td>
-        <td>@Model.personalDeAseo.diagnostico</td>
-        <td>@Model.personalDeAseo.turnoDesarrolloServicio</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Identificacion</th>
+            <th>Edad</th>
+            <th>Estado COVID</th>
+            <th>Diagnostico</th>
+            <th>Turno de desarrollo servicio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.personalDeAseo.nombre</td>
+            <td>@Model.personalDeAseo.apellido</td>
+            <td>@Model.personalDeAseo.identificacion</td>
+            <td>@Model.personalDeAseo.edad</td>
+            <td>@Model.personalDeAseo.estadoCovid</td>
+            <td>@Model.personalDeAseo.diagnostico</td>
+            <td>@Model.personalDeAseo.turnoDesarrolloServicio</td>
+        </tr>
+    </tbody>
 </table>
 <form method="post">
     <input type="hidden" asp-for="personalDeAseo.id" />

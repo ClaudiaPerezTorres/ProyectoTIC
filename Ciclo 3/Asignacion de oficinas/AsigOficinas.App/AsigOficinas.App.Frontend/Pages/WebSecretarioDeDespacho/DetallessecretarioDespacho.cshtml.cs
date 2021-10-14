@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AsigOficinas.App.Dominio;
+using AsigOficinas.App.Persistencia;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -9,8 +11,16 @@ namespace AsigOficinas.App.Frontend.Pages
 {
     public class DetallessecretarioDespachoModel : PageModel
     {
-        public void OnGet()
+        private static IRepositorioSecretarioDeDespacho _repositorioSecretarioDeDespacho = new RepositorioSecretarioDeDespacho(new Persistencia.appContext());
+        public SecretarioDeDespacho secretarioDeDespachos { get; set; }
+        public IActionResult OnGet(int idPersonalDeAseo)
         {
+            secretarioDeDespachos = _repositorioSecretarioDeDespacho.GetSecretarioDeDespacho(idPersonalDeAseo);
+            if (secretarioDeDespachos == null)
+            {
+                return RedirectToPage("./secretarioDespacho");
+            }
+            return Page();
         }
     }
 }

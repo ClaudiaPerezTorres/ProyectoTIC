@@ -2,18 +2,32 @@
 @model AsigOficinas.App.Frontend.Pages.EliminarproveedorServiciosModel
 @{
 }
-<h1>Desea eliminar proveedor de servicios</h1>
+<h2>Desea eliminar proveedor de servicios</h2>
 <table class="table">
-    <tr>
-        <td>@Model.proveedorDeServicios.nombre</td>
-        <td>@Model.proveedorDeServicios.apellido</td>
-        <td>@Model.proveedorDeServicios.identificacion</td>
-        <td>@Model.proveedorDeServicios.edad</td>
-        <td>@Model.proveedorDeServicios.estadoCovid</td>
-        <td>@Model.proveedorDeServicios.diagnostico</td>
-        <td>@Model.proveedorDeServicios.servicioRealizado</td>
-        <td>@Model.proveedorDeServicios.undDesarrolloServicio</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Identificación</th>
+            <th>Edad</th>
+            <th>Estado COVID</th>
+            <th>Diagnostico</th>
+            <th>Servicio realizado</th>
+            <th>Und. Desarrollo servicio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.proveedorDeServicios.nombre</td>
+            <td>@Model.proveedorDeServicios.apellido</td>
+            <td>@Model.proveedorDeServicios.identificacion</td>
+            <td>@Model.proveedorDeServicios.edad</td>
+            <td>@Model.proveedorDeServicios.estadoCovid</td>
+            <td>@Model.proveedorDeServicios.diagnostico</td>
+            <td>@Model.proveedorDeServicios.servicioRealizado</td>
+            <td>@Model.proveedorDeServicios.undDesarrolloServicio</td>
+        </tr>
+    </tbody>
 </table>
 <form method="post">
     <input type="hidden" asp-for="proveedorDeServicios.id" />

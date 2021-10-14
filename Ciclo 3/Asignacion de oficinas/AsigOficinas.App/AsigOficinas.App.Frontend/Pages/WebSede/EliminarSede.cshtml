@@ -2,12 +2,21 @@
 @model AsigOficinas.App.Frontend.Pages.EliminarModel
 @{
 }
-<h1>Desea eliminar sede</h1>
+<h2>Desea eliminar sede</h2>
 <table class="table">
-    <tr>
-        <td>@Model.sede.nombre</td>
-        <td>@Model.sede.ubicacion</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Oficinas</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.sede.nombre</td>
+            <td>@Model.sede.ubicacion</td>
+        </tr>
+    </tbody>
 </table>
 <form method="post">
     <input type="hidden" asp-for="sede.id" />
