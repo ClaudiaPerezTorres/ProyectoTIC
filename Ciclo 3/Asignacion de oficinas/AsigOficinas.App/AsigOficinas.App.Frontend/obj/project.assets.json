@@ -1488,7 +1488,8 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
+          "System.ComponentModel.Annotations": "5.0.0"
         },
         "compile": {
           "bin/placeholder/AsigOficinas.App.Dominio.dll": {}
