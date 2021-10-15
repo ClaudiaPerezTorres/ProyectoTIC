@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AsigOficinas.App.Persistencia.Migrations
 {
     [DbContext(typeof(appContext))]
-    [Migration("20211013180249_Entidades")]
+    [Migration("20211015031557_Entidades")]
     partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,8 +49,8 @@ namespace AsigOficinas.App.Persistencia.Migrations
                     b.Property<string>("direccion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("telefono")
-                        .HasColumnType("int");
+                    b.Property<long>("telefono")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("ubicacion")
                         .HasColumnType("nvarchar(max)");

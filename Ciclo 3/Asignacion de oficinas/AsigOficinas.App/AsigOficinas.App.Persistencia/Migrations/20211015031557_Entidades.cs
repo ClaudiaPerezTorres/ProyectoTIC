@@ -29,7 +29,7 @@ namespace AsigOficinas.App.Persistencia.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ubicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    telefono = table.Column<int>(type: "int", nullable: false)
+                    telefono = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {

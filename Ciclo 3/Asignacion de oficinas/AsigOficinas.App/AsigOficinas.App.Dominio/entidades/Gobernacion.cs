@@ -8,7 +8,7 @@ namespace AsigOficinas.App.Dominio
         public int id {get;set;}
         public string ubicacion {get;set;}
         public string direccion {get;set;}
-        public ushort telefono {get;set;}
+        public uint telefono {get;set;}
         public List<Sede> sedes {get;set;}
     }
 }

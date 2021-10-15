@@ -1,0 +1,30 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EliminarGobernacionModel
+@{
+}
+<h2>Desea eliminar gobernación</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ubicación</th>
+            <th>Dirección</th>
+            <th>Telefono</th>
+            <th>Sedes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.gobernacion.ubicacion</td>
+            <td>@Model.gobernacion.direccion</td>
+            <td>@Model.gobernacion.telefono</td>
+            <td>@Model.gobernacion.sedes</td>
+        </tr>
+    </tbody>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="gobernacion.id" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash" aria-hidden="true"></i>
+        Confirmar eliminar
+    </button>
+</form>

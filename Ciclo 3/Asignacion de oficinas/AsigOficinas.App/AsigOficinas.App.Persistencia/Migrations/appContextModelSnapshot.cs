@@ -47,8 +47,8 @@ namespace AsigOficinas.App.Persistencia.Migrations
                     b.Property<string>("direccion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("telefono")
-                        .HasColumnType("int");
+                    b.Property<long>("telefono")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("ubicacion")
                         .HasColumnType("nvarchar(max)");

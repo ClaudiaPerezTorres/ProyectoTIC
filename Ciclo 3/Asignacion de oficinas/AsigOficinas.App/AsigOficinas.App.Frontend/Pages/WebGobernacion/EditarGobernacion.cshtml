@@ -1,0 +1,31 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EditarGobernacionModel
+@{
+}
+<h2>Editar gobernación</h2>
+<div class="container-fluid">
+    <form method="post">
+        <input type="hidden" asp-for="gobernacion.id">
+        <div class="form-group">
+            <label asp-for="gobernacion.ubicacion"></label>
+            <input asp-for="gobernacion.ubicacion" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernacion.ubicacion"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernacion.direccion"></label>
+            <input asp-for="gobernacion.direccion" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernacion.direccion"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernacion.telefono"></label>
+            <input asp-for="gobernacion.telefono" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernacion.telefono"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernacion.sedes"></label>
+            <input asp-for="gobernacion.sedes" class="form-control">
+            <span class="text-danger" asp-validation-for="gobernacion.sedes"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+</div>
