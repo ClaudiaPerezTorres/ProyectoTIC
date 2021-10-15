@@ -14,9 +14,9 @@ namespace AsigOficinas.App.Frontend.Pages
         private static IRepositorioDiagnostico _repositorioDiagnostico = new RepositorioDiagnostico(new Persistencia.appContext());
         [BindProperty]
         public Diagnostico diagnostico {get;set;}
-        public IActionResult OnGet(int Diagnostico)
+        public IActionResult OnGet(int idDiagnostico)
         {
-            diagnostico = _repositorioDiagnostico.GetDiagnostico(Diagnostico);
+            diagnostico = _repositorioDiagnostico.GetDiagnostico(idDiagnostico);
             if(diagnostico == null)
             {
                 return RedirectToPage("./diagnostico");

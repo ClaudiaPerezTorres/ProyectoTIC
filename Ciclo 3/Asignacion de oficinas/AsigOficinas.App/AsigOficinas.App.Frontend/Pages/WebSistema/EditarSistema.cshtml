@@ -1,0 +1,14 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EditarSistemaModel
+@{
+}
+<h2>Editar sistema</h2>
+<form method="post">
+    <input type="hidden" asp-for="sistema.id">
+    <div class="form-group">
+        <label asp-for="sistema.oficina"></label>
+        <input asp-for="sistema.oficina" class="form-control">
+        <span class="text-danger" asp-validation-for="sistema.oficina"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

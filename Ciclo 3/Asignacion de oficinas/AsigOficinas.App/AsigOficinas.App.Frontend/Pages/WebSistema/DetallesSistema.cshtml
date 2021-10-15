@@ -1,0 +1,18 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.DetallesSistemaModel
+@{
+}
+<h1>Detalles del sistema</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Oficinas</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.sistema.oficina</td>
+        </tr>
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/WebSistema/sistema"><i class="bi bi-arrow-left"></i></i> sistemas</a>
