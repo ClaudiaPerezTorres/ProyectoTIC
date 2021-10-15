@@ -1,0 +1,20 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.DetallesDiagnosticoModel
+@{
+}
+<h1>Detalles del diagnostico</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sintomas</th>
+            <th>Fecha del diagnostico</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.diagnostico.sintomas</td>
+            <td>@Model.diagnostico.fechaDiagnostico</td>
+        </tr>
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-area="" asp-page="/WebDiagnostico/diagnostico"><i class="bi bi-arrow-left"></i></i> diagnosticos</a>

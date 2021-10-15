@@ -278,3 +278,6 @@ C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebGobernacion\gobernacion.cshtml.g.cs
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebDiagnostico\diagnostico.cshtml.g.cs
 C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebGobernacion\DetallesGobernacion.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebDiagnostico\DetallesDiagnostico.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebDiagnostico\EditarDiagnostico.cshtml.g.cs
+C:\Users\USUARIO\Desktop\ProyectoTIC\Ciclo 3\Asignacion de oficinas\AsigOficinas.App\AsigOficinas.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\WebDiagnostico\EliminarDiagnostico.cshtml.g.cs

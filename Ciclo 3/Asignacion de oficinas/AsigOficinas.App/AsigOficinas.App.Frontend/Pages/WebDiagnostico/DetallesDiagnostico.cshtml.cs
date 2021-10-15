@@ -9,13 +9,19 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AsigOficinas.App.Frontend.Pages
 {
-    public class diagnosticoModel : PageModel
+    public class DetallesDiagnosticoModel : PageModel
     {
         private static IRepositorioDiagnostico _repositorioDiagnostico = new RepositorioDiagnostico(new Persistencia.appContext());
-        public IEnumerable<Diagnostico> diagnosticos {get;set;}
-        public void OnGet()
+        [BindProperty]
+        public Diagnostico diagnostico {get;set;}
+        public IActionResult OnGet(int Diagnostico)
         {
-            diagnosticos = _repositorioDiagnostico.GetAllDiagnostico();
+            diagnostico = _repositorioDiagnostico.GetDiagnostico(Diagnostico);
+            if(diagnostico == null)
+            {
+                return RedirectToPage("./diagnostico");
+            }
+            return Page();
         }
     }
 }

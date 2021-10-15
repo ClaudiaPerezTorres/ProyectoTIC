@@ -14457,6 +14457,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebDiagnostico\\EditarDiagnostico.cshtml",
+      "TargetPath": "Pages\\WebDiagnostico\\EditarDiagnostico.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebOficina\\oficina.cshtml",
       "TargetPath": "Pages\\WebOficina\\oficina.cshtml",
       "FileKind": "mvc"
@@ -14474,6 +14479,11 @@
     {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebDiagnostico\\DetallesDiagnostico.cshtml",
+      "TargetPath": "Pages\\WebDiagnostico\\DetallesDiagnostico.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14579,6 +14589,11 @@
     {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebOficina\\DetallesOficina.cshtml",
       "TargetPath": "Pages\\WebOficina\\DetallesOficina.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebDiagnostico\\EliminarDiagnostico.cshtml",
+      "TargetPath": "Pages\\WebDiagnostico\\EliminarDiagnostico.cshtml",
       "FileKind": "mvc"
     }
   ],

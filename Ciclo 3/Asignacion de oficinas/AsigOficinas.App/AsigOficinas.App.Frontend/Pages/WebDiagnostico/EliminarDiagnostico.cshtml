@@ -1,0 +1,26 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.EliminarDiagnosticoModel
+@{
+}
+<h2>Desea eliminar diagnostico</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sintomas</th>
+            <th>Fecha del diagnostico</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.diagnostico.sintomas</td>
+            <td>@Model.diagnostico.fechaDiagnostico</td>
+        </tr>
+    </tbody>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="diagnostico.id" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash" aria-hidden="true"></i>
+        Confirmar eliminar
+    </button>
+</form>

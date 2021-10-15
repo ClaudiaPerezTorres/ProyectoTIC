@@ -2,3 +2,45 @@
 @model AsigOficinas.App.Frontend.Pages.diagnosticoModel
 @{
 }
+<h2>Listado de registros</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sintomas</th>
+            <th>Fecha del diagnostico</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (var diagnostico in Model.diagnosticos)
+            {
+            <tr>
+                <td>@diagnostico.sintomas</td>
+                <td>@diagnostico.fechaDiagnostico</td>
+                <td>
+                    <a class="btn btn-primary table-btn" asp-page="./DetallesDiagnostico" asp-route-idDiagnostico="@diagnostico.id">
+                        <i class="bi bi-info-circle" aria-hidden="true"></i>
+                        Detalle
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-secondary table-btn" asp-page="./EditarDiagnostico" asp-route-idDiagnostico="@diagnostico.id">
+                        <i class="bi bi-pencil-square" aria-hidden="true"></i>
+                        Editar
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger table-btn" asp-page="./EliminarDiagnostico" asp-route-idDiagnostico="@diagnostico.id">
+                        <i class="bi bi-trash" aria-hidden="true"></i>
+                        Eliminar
+                    </a>
+                </td>
+            </tr>
+            }
+        </tr>
+    </tbody>
+</table>
+<a class="btn btn-primary table-btn" asp-page="./EditarDiagnostico">
+    <i class="bi bi-file-plus" aria-hidden="true"></i>
+    Crear registro
+</a>
