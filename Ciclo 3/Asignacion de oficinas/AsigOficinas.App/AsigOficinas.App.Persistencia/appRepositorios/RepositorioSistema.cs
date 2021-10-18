@@ -103,22 +103,54 @@ namespace AsigOficinas.App.Persistencia
 
         public bool verificarEstadoCovid(PersonalDeAseo personalDeAseo)
         {
-            throw new System.NotImplementedException();
+            var personalDeAseoEncontrado = _appContext.PersonalDeAseo.FirstOrDefault(a=>a.id == personalDeAseo.id);
+            if (personalDeAseoEncontrado!=null)
+            {
+                if (personalDeAseoEncontrado.estadoCovid)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         public bool verificarEstadoCovid(ProveedorDeServicios proveedorDeServicios)
         {
-            throw new System.NotImplementedException();
+            var proveedorDeServiciosEncontrado = _appContext.ProveedorDeServicios.FirstOrDefault(a=>a.id == proveedorDeServicios.id);
+            if (proveedorDeServiciosEncontrado!=null)
+            {
+                if (proveedorDeServiciosEncontrado.estadoCovid)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         public bool verificarEstadoCovid(SecretarioDeDespacho secretarioDeDespacho)
         {
-            throw new System.NotImplementedException();
+            var secretarioDeDespachoEncontrado = _appContext.SecretarioDeDespacho.FirstOrDefault(a=>a.id == secretarioDeDespacho.id);
+            if (secretarioDeDespachoEncontrado!=null)
+            {
+                if (secretarioDeDespachoEncontrado.estadoCovid)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         public bool verificarEstadoCovid(GobernadorYAsesor gobernadorYAsesor)
         {
-            throw new System.NotImplementedException();
+            var gobernadorYAsesorEncontrado = _appContext.GobernadorYAsesor.FirstOrDefault(a=>a.id == gobernadorYAsesor.id);
+            if (gobernadorYAsesorEncontrado!=null)
+            {
+                if (gobernadorYAsesorEncontrado.estadoCovid)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

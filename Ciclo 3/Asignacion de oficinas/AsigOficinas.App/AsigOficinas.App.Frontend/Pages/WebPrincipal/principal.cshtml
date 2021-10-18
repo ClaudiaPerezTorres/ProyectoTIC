@@ -1,0 +1,42 @@
+﻿@page
+@model AsigOficinas.App.Frontend.Pages.principalModel
+@{
+}
+<h1>Asignación de oficinas</h1>
+<form method="post">
+    <div class="divsEmpleo">
+        <select name="select" id="select" onclick="toggle(this)">
+            <option value="ocultar" selected>-- No seleccionado --</option>
+            <option value="ocultar">Personal de aseo</option>
+            <option value="ocultar">Proveedor de servicio</option>
+            <option value="ocultar">Secretario de despacho</option>
+            <option value="ocultar">Gobernador y asesor</option>
+        </select>
+    </div>
+    <table class="table">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </thead>
+        <tbody>
+            <div class="mostarPersonalAseo">
+                @foreach (var per in Model.personalDeAseos)
+                {
+                    <tr>
+                        <td>@per.nombre</td>
+                        <td>@per.apellido</td>
+                    </tr>
+                }
+            </div>
+        </tbody>
+    </table>
+    @* <select data-val="true">
+        <option selected="selected" value="0">Tipo de empleado</option>
+        @foreach (var empleado in Model.gobernadorYAsesors)
+        {
+        <option value="@diagnostico.id">@diagnostico.sintomas</option>
+        }
+        </select> *@
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+<script src="~/js/site.js" asp-append-version="true"></script>

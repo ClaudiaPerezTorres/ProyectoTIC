@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\WebPrincipal\\principal.cshtml",
+      "TargetPath": "Pages\\WebPrincipal\\principal.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USUARIO\\Desktop\\ProyectoTIC\\Ciclo 3\\Asignacion de oficinas\\AsigOficinas.App\\AsigOficinas.App.Frontend\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"

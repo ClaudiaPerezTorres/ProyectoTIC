@@ -11,11 +11,14 @@ namespace AsigOficinas.App.Frontend.Pages
 {
     public class EditarsecretarioDespachoModel : PageModel
     {
+        private static IRepositorioDiagnostico _repositorioDiagnostico = new RepositorioDiagnostico(new Persistencia.appContext());
         private static IRepositorioSecretarioDeDespacho _repositorioSecretarioDeDespacho = new RepositorioSecretarioDeDespacho(new Persistencia.appContext());
         [BindProperty]
         public SecretarioDeDespacho secretarioDeDespachos { get; set; }
-public IActionResult OnGet(int? idSecretarioDeDespacho)
+        public IEnumerable<Diagnostico> diagnosticos { get; set; }
+        public IActionResult OnGet(int? idSecretarioDeDespacho)
         {
+            diagnosticos = _repositorioDiagnostico.GetAllDiagnostico();
             if (idSecretarioDeDespacho.HasValue)
             {
                 secretarioDeDespachos = _repositorioSecretarioDeDespacho.GetSecretarioDeDespacho(idSecretarioDeDespacho.Value);

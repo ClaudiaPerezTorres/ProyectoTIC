@@ -27,7 +27,8 @@
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" asp-page="/WebSistema/sistema">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page"
+                        asp-page="/WebPrincipal/principal">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" asp-page="/WebGobernacion/gobernacion">Gobernación</a></li>
                 <li class="nav-item"><a class="nav-link" asp-page="/WebSede/sede">Sede</a></li>
                 <li class="nav-item"><a class="nav-link" asp-page="/WebOficina/Oficina">Oficina</a></li>
@@ -35,15 +36,19 @@
                     <a class="nav-link" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Empleados</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown01">
                         <li><a class="dropdown-item" asp-page="/WebPersonalAseo/personalAseo">Personal de aseo</a></li>
-                        <li><a class="dropdown-item" asp-page="/WebProveedorDeServicios/proveedorServicios">Proveedor de servicios</a></li>
-                        <li><a class="dropdown-item" asp-page="/WebSecretarioDeDespacho/secretarioDespacho">Secretrario de despachos</a></li>
-                        <li><a class="dropdown-item" asp-page="/WebGobernadorYAsesor/gobenadorAsesor">Gobernador y Asesor</a></li>
+                        <li><a class="dropdown-item" asp-page="/WebProveedorDeServicios/proveedorServicios">Proveedor de
+                                servicios</a></li>
+                        <li><a class="dropdown-item" asp-page="/WebSecretarioDeDespacho/secretarioDespacho">Secretrario
+                                de despachos</a></li>
+                        <li><a class="dropdown-item" asp-page="/WebGobernadorYAsesor/gobenadorAsesor">Gobernador y
+                                Asesor</a></li>
                         <li><a class="dropdown-item" asp-page="/WebDiagnostico/diagnostico">Diagnostico</a></li>
                     </ul>
                 </li>
             </ul>
+        </header>
     </div>
-    </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

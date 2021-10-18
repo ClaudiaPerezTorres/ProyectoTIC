@@ -19,7 +19,7 @@ namespace AsigOficinas.App.Persistencia
         /// <param name="appContext"></param>//
         public RepositorioSede(appContext appContext)
         {
-            _appContext=appContext;
+            _appContext = appContext;
         }
         Sede IRepositorioSede.AddSede(Sede sede)
         {

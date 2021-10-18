@@ -13,7 +13,8 @@ namespace AsigOficinas.App.Frontend.Pages
     {
         private static IRepositorioSecretarioDeDespacho _repositorioSecretarioDeDespacho = new RepositorioSecretarioDeDespacho(new Persistencia.appContext());
         public IEnumerable<SecretarioDeDespacho> secretariosDeDespachos { get; set; }
-        public void OnGet()
+        public Diagnostico diagnostico { get; set; }
+        public void OnGet(int idDiagnostico)
         {
             secretariosDeDespachos = _repositorioSecretarioDeDespacho.GetAllSecretarioDeDespacho();
         }

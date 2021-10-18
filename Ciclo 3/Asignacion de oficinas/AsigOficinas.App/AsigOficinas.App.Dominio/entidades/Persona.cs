@@ -6,9 +6,9 @@ namespace AsigOficinas.App.Dominio
     public class Persona
     {
         public int id {get;set;}
-        [Required(ErrorMessage ="Falta completar este campo"), StringLength(50, MinimumLength = 10)]
+        [Required(ErrorMessage ="Falta completar este campo"), StringLength(50, MinimumLength = 3)]
         public string nombre {get;set;}
-        [Required(ErrorMessage ="Falta completar este campo"), StringLength(50, MinimumLength = 10)]
+        [Required(ErrorMessage ="Falta completar este campo"), StringLength(50, MinimumLength = 3)]
         public string apellido {get;set;}
         [Required(ErrorMessage = "Falta completar este campo")]
         public uint identificacion {get;set;}
